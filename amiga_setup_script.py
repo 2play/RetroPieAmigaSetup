@@ -175,9 +175,7 @@ if os.path.isdir(roms_folder) == True and roms_folder !="":
             os.makedirs(roms_folder + "amiga-data/Games_WHDLoad_HDF_CDTV", exist_ok=True)
             os.makedirs(roms_folder + "amiga-data/Games_WHDLoad_HDF_DemoVersions", exist_ok=True)
             os.makedirs(roms_folder + "amiga-data/Games_WHDLoad_HDF_AltLanguage", exist_ok=True)
-            
-            os.makedirs(roms_folder + "amiga-data/Games_CD32", exist_ok=True)
-            
+                                
     # get some example games
             data_file = "Cybernoid_v1.3_1088.zip"
             game_name = "Cybernoid - The Fighting Machine"
